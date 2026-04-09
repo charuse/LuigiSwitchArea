@@ -1,0 +1,26 @@
+{
+  "Name": "LuigiSwitchArea",
+  "Author": "charuse",
+  "Description": "Activates different switch dependent on Mario/Luigi in the area",
+  "InstallDependencies": ["Syati_ObjectFactories", "ExtAreaObjMgr"],
+  "ModuleData" : [
+    {
+      "NameObjFactory" : [
+        {
+          "Name" : "LuigiSwitchArea",
+          "Function" : "createExtActor<LuigiSwitchArea>",
+          "Include" : "LuigiSwitchArea.h"
+        }
+      ]
+    },
+    {
+      "AreaObjMgr" : [
+        {
+          "Name" : "LuigiSwitchArea",
+          "MaxCount" : "64",
+          "Function" : "AreaObjContainer::createManager<AreaObjMgr>"
+        }
+      ]
+    }
+  ]
+}
