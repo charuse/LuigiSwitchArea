@@ -8,4 +8,7 @@ public:
     virtual void init(const JMapInfoIter &rIter);
     virtual void movement();
     virtual const char* getManagerName() const;
+
+    bool mCheckLuigi;
+    bool mLuigi;
 };
