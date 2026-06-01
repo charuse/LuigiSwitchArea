@@ -9,6 +9,7 @@ public:
     virtual void movement();
     virtual const char* getManagerName() const;
 
-    bool mCheckLuigi;
+    StageSwitchCtrl* mCtrl;
     bool mLuigi;
+    bool mGo;
 };

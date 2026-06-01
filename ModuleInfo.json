@@ -1,7 +1,7 @@
 {
   "Name": "LuigiSwitchArea",
   "Author": "charuse",
-  "Description": "Activates switch dependent on Mario/Luigi in-area",
+  "Description": "Activates SW_A for Mario and SW_B for Luigi",
   "InstallDependencies": ["Syati_ObjectFactories", "ExtAreaObjMgr"],
   "ModuleData" : [
     {

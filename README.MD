@@ -1,7 +1,5 @@
-# LuigiSwitchArea
-Activates SW_A dependent on either Mario/Luigi being in the area
-
-- SW_A: Activated on Player Enter Area
-- Obj_arg0:
-    - Disabled:ㅤCheck for Mario
-    - Enabled:ㅤ Check for Luigi
+# LuigiSwitchArea  
+### Activates SW_A for Mario or SW_B for Luigi  
+  
+- **SW_A:** Activated on Mario Enter Area
+- **SW_B:** Activated on Luigi Enter Area
